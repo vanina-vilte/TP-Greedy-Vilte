@@ -1,0 +1,15 @@
+{
+ "nombre": "Mapa 1 - Solución directa",
+ "grilla": [
+ [0, 0, 0, 1, 0],
+ [1, 1, 0, 1, 0],
+ [0, 0, 0, 0, 0],
+ [0, 2, 1, 1, 0],
+ [0, 0, 0, 0, 0]
+ ],
+ "inicio": [0, 0],
+ "destino": [4, 4],
+ "tamano_celda_metros": 0.50,
+ "orientacion_inicial": "ESTE",
+ "maximo_pasos": 30
+}
