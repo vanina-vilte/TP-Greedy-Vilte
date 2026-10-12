@@ -1,4 +1,4 @@
-# TP 03 - Planificador de rutas con Greedy (Programación III, UADE)
+# TPO - Planificador de rutas con Greedy (Programación III, UADE)
 
 ## Qué hay en la carpeta
 
