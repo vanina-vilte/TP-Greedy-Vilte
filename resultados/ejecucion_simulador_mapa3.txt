@@ -1,0 +1,23 @@
+Mapa: Mapa 3 - Fracaso de la estrategia | estado del planificador: BLOQUEADO
+16 órdenes, duración estimada 30.3 s
+[OK] Conectado a Unitree G1 (humanoide).
+     Limites: 0.25 m/s, 1.0 rad/s, 10.0 s por orden.
+  [ 1/16] avanzar v=+0.25 t=2.00 s  (avanzar 0.50 m)
+  [ 2/16] avanzar v=+0.25 t=2.00 s  (avanzar 0.50 m)
+  [ 3/16] girar   v=-1.00 t=1.57 s  (girar a la derecha 90°)
+  [ 4/16] avanzar v=+0.25 t=2.00 s  (avanzar 0.50 m)
+  [ 5/16] avanzar v=+0.25 t=2.00 s  (avanzar 0.50 m)
+  [ 6/16] avanzar v=+0.25 t=2.00 s  (avanzar 0.50 m)
+  [ 7/16] girar   v=-1.00 t=1.57 s  (girar a la derecha 90°)
+  [ 8/16] avanzar v=+0.25 t=2.00 s  (avanzar 0.50 m)
+  [ 9/16] girar   v=+1.00 t=1.57 s  (girar a la izquierda 90°)
+  [10/16] avanzar v=+0.25 t=2.00 s  (avanzar 0.50 m)
+  [11/16] avanzar v=+0.25 t=2.00 s  (avanzar 0.50 m)
+  [12/16] avanzar v=+0.25 t=2.00 s  (avanzar 0.50 m)
+  [13/16] girar   v=+1.00 t=1.57 s  (girar a la izquierda 90°)
+  [14/16] avanzar v=+0.25 t=2.00 s  (avanzar 0.50 m)
+  [15/16] avanzar v=+0.25 t=2.00 s  (avanzar 0.50 m)
+  [16/16] avanzar v=+0.25 t=2.00 s  (avanzar 0.50 m)
+Pose final del robot: x=+1.99 m, y=-2.99 m, rumbo=+0°
+Pose esperada si llegó a la celda [6, 4] (desde [0, 0]): x=+2.00 m, y=-3.00 m
+[OK] Desconectado.

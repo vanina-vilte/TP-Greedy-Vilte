@@ -1,0 +1,56 @@
+==============================================================================
+Mapa 2 - Solución no óptima  (mapa2.json)
+==============================================================================
+Grilla 7x7 | celda 0,50 m | orientación inicial ESTE
+Desempate: ARRIBA -> DERECHA -> ABAJO -> IZQUIERDA
+
+Inicio: [0, 0] | Destino: [6, 6] | Distancia inicial: 12 | Máximo de pasos: 40
+
+Paso  1 | en [0, 0] | candidatos: [DERECHA->[0, 1] d=11] | elijo DERECHA -> [0, 1] (d=11)
+Paso  2 | en [0, 1] | candidatos: [DERECHA->[0, 2] d=10, ABAJO->[1, 1] d=10] | elijo DERECHA -> [0, 2] (d=10)
+Paso  3 | en [0, 2] | candidatos: [DERECHA->[0, 3] d=9, ABAJO->[1, 2] d=9] | elijo DERECHA -> [0, 3] (d=9)
+Paso  4 | en [0, 3] | candidatos: [DERECHA->[0, 4] d=8, ABAJO->[1, 3] d=8] | elijo DERECHA -> [0, 4] (d=8)
+Paso  5 | en [0, 4] | candidatos: [DERECHA->[0, 5] d=7, ABAJO->[1, 4] d=7] | elijo DERECHA -> [0, 5] (d=7)
+Paso  6 | en [0, 5] | candidatos: [ABAJO->[1, 5] d=6] | elijo ABAJO -> [1, 5] (d=6)
+Paso  7 | en [1, 5] | candidatos: [DERECHA->[1, 6] d=5, ABAJO->[2, 5] d=5, IZQUIERDA->[1, 4] d=7] | elijo DERECHA -> [1, 6] (d=5)
+Paso  8 | en [1, 6] | candidatos: [ABAJO->[2, 6] d=4] | elijo ABAJO -> [2, 6] (d=4)
+Paso  9 | en [2, 6] | candidatos: [ABAJO->[3, 6] d=3, IZQUIERDA->[2, 5] d=5] | elijo ABAJO -> [3, 6] (d=3)
+Paso 10 | en [3, 6] | candidatos: [ABAJO->[4, 6] d=2, IZQUIERDA->[3, 5] d=4] | elijo ABAJO -> [4, 6] (d=2)
+Paso 11 | en [4, 6] | candidatos: [IZQUIERDA->[4, 5] d=3] | elijo IZQUIERDA -> [4, 5] (d=3)
+Paso 12 | en [4, 5] | candidatos: [ARRIBA->[3, 5] d=4, IZQUIERDA->[4, 4] d=4] | elijo ARRIBA -> [3, 5] (d=4)
+Paso 13 | en [3, 5] | candidatos: [ARRIBA->[2, 5] d=5, IZQUIERDA->[3, 4] d=5] | elijo ARRIBA -> [2, 5] (d=5)
+Paso 14 | en [2, 5] | candidatos: [IZQUIERDA->[2, 4] d=6] | elijo IZQUIERDA -> [2, 4] (d=6)
+Paso 15 | en [2, 4] | candidatos: [ARRIBA->[1, 4] d=7, ABAJO->[3, 4] d=5, IZQUIERDA->[2, 3] d=7] | elijo ABAJO -> [3, 4] (d=5)
+Paso 16 | en [3, 4] | candidatos: [ABAJO->[4, 4] d=4, IZQUIERDA->[3, 3] d=6] | elijo ABAJO -> [4, 4] (d=4)
+Paso 17 | en [4, 4] | candidatos: [ABAJO->[5, 4] d=3, IZQUIERDA->[4, 3] d=5] | elijo ABAJO -> [5, 4] (d=3)
+Paso 18 | en [5, 4] | candidatos: [ABAJO->[6, 4] d=2, IZQUIERDA->[5, 3] d=4] | elijo ABAJO -> [6, 4] (d=2)
+Paso 19 | en [6, 4] | candidatos: [DERECHA->[6, 5] d=1, IZQUIERDA->[6, 3] d=3] | elijo DERECHA -> [6, 5] (d=1)
+Paso 20 | en [6, 5] | candidatos: [DERECHA->[6, 6] d=0] | elijo DERECHA -> [6, 6] (d=0)
+
+RESULTADO: DESTINO_ALCANZADO
+Causa: El robot llegó a la celda destino.
+Movimientos realizados: 20
+Posición final: [6, 6] | distancia Manhattan al destino: 0
+
+Ruta recorrida:
+  (0,0) -> (0,1) -> (0,2) -> (0,3) -> (0,4) -> (0,5) -> (1,5) -> (1,6) -> (2,6) -> (3,6) -> (4,6) -> (4,5) -> (3,5) -> (2,5) -> (2,4) -> (3,4) -> (4,4) -> (5,4) -> (6,4) -> (6,5) -> (6,6)
+
+Representación de la ruta (I inicio, D destino, # obstáculo, X prohibida, * donde quedó):
+    0 1 2 3 4 5 6
+ 0  I → → → → ↓ #
+ 1  # . . . . → ↓
+ 2  . . X . ↓ ← ↓
+ 3  . . . . ↓ ↑ ↓
+ 4  . . . . ↓ ↑ ←
+ 5  . # # . ↓ # #
+ 6  # . # . → → D
+
+Referencia (BFS): existe una ruta de 12 movimientos: (0,0) -> (0,1) -> (0,2) -> (0,3) -> (0,4) -> (1,4) -> (2,4) -> (3,4) -> (4,4) -> (5,4) -> (6,4) -> (6,5) -> (6,6)
+Greedy usó 20 movimientos (8 más que el mínimo).
+
+Instrucciones para el robot (paso a paso, 28 instrucciones):
+  AVANZAR 0,50 m -> AVANZAR 0,50 m -> AVANZAR 0,50 m -> AVANZAR 0,50 m -> AVANZAR 0,50 m -> GIRAR DERECHA 90° -> AVANZAR 0,50 m -> GIRAR IZQUIERDA 90° -> AVANZAR 0,50 m -> GIRAR DERECHA 90° -> AVANZAR 0,50 m -> AVANZAR 0,50 m -> AVANZAR 0,50 m -> GIRAR DERECHA 90° -> AVANZAR 0,50 m -> GIRAR DERECHA 90° -> AVANZAR 0,50 m -> AVANZAR 0,50 m -> GIRAR IZQUIERDA 90° -> AVANZAR 0,50 m -> GIRAR IZQUIERDA 90° -> AVANZAR 0,50 m -> AVANZAR 0,50 m -> AVANZAR 0,50 m -> AVANZAR 0,50 m -> GIRAR IZQUIERDA 90° -> AVANZAR 0,50 m -> AVANZAR 0,50 m
+
+Instrucciones agrupadas (avances consecutivos sumados, 17 instrucciones):
+  AVANZAR 2,50 m -> GIRAR DERECHA 90° -> AVANZAR 0,50 m -> GIRAR IZQUIERDA 90° -> AVANZAR 0,50 m -> GIRAR DERECHA 90° -> AVANZAR 1,50 m -> GIRAR DERECHA 90° -> AVANZAR 0,50 m -> GIRAR DERECHA 90° -> AVANZAR 1,00 m -> GIRAR IZQUIERDA 90° -> AVANZAR 0,50 m -> GIRAR IZQUIERDA 90° -> AVANZAR 2,00 m -> GIRAR IZQUIERDA 90° -> AVANZAR 1,00 m
+

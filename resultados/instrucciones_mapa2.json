@@ -1,0 +1,170 @@
+{
+  "mapa": "Mapa 2 - Solución no óptima",
+  "estado": "DESTINO_ALCANZADO",
+  "orientacion_inicial": "ESTE",
+  "tamano_celda_metros": 0.5,
+  "ruta": [
+    [
+      0,
+      0
+    ],
+    [
+      0,
+      1
+    ],
+    [
+      0,
+      2
+    ],
+    [
+      0,
+      3
+    ],
+    [
+      0,
+      4
+    ],
+    [
+      0,
+      5
+    ],
+    [
+      1,
+      5
+    ],
+    [
+      1,
+      6
+    ],
+    [
+      2,
+      6
+    ],
+    [
+      3,
+      6
+    ],
+    [
+      4,
+      6
+    ],
+    [
+      4,
+      5
+    ],
+    [
+      3,
+      5
+    ],
+    [
+      2,
+      5
+    ],
+    [
+      2,
+      4
+    ],
+    [
+      3,
+      4
+    ],
+    [
+      4,
+      4
+    ],
+    [
+      5,
+      4
+    ],
+    [
+      6,
+      4
+    ],
+    [
+      6,
+      5
+    ],
+    [
+      6,
+      6
+    ]
+  ],
+  "instrucciones": [
+    {
+      "tipo": "AVANZAR",
+      "metros": 2.5
+    },
+    {
+      "tipo": "GIRAR",
+      "sentido": "DERECHA",
+      "grados": 90
+    },
+    {
+      "tipo": "AVANZAR",
+      "metros": 0.5
+    },
+    {
+      "tipo": "GIRAR",
+      "sentido": "IZQUIERDA",
+      "grados": 90
+    },
+    {
+      "tipo": "AVANZAR",
+      "metros": 0.5
+    },
+    {
+      "tipo": "GIRAR",
+      "sentido": "DERECHA",
+      "grados": 90
+    },
+    {
+      "tipo": "AVANZAR",
+      "metros": 1.5
+    },
+    {
+      "tipo": "GIRAR",
+      "sentido": "DERECHA",
+      "grados": 90
+    },
+    {
+      "tipo": "AVANZAR",
+      "metros": 0.5
+    },
+    {
+      "tipo": "GIRAR",
+      "sentido": "DERECHA",
+      "grados": 90
+    },
+    {
+      "tipo": "AVANZAR",
+      "metros": 1.0
+    },
+    {
+      "tipo": "GIRAR",
+      "sentido": "IZQUIERDA",
+      "grados": 90
+    },
+    {
+      "tipo": "AVANZAR",
+      "metros": 0.5
+    },
+    {
+      "tipo": "GIRAR",
+      "sentido": "IZQUIERDA",
+      "grados": 90
+    },
+    {
+      "tipo": "AVANZAR",
+      "metros": 2.0
+    },
+    {
+      "tipo": "GIRAR",
+      "sentido": "IZQUIERDA",
+      "grados": 90
+    },
+    {
+      "tipo": "AVANZAR",
+      "metros": 1.0
+    }
+  ]
+}

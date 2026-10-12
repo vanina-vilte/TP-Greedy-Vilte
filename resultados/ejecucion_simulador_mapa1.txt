@@ -1,0 +1,18 @@
+Mapa: Mapa 1 - Solución directa | estado del planificador: DESTINO_ALCANZADO
+11 órdenes, duración estimada 20.7 s
+[OK] Conectado a Unitree G1 (humanoide).
+     Limites: 0.25 m/s, 1.0 rad/s, 10.0 s por orden.
+  [ 1/11] avanzar v=+0.25 t=2.00 s  (avanzar 0.50 m)
+  [ 2/11] avanzar v=+0.25 t=2.00 s  (avanzar 0.50 m)
+  [ 3/11] girar   v=-1.00 t=1.57 s  (girar a la derecha 90°)
+  [ 4/11] avanzar v=+0.25 t=2.00 s  (avanzar 0.50 m)
+  [ 5/11] avanzar v=+0.25 t=2.00 s  (avanzar 0.50 m)
+  [ 6/11] girar   v=+1.00 t=1.57 s  (girar a la izquierda 90°)
+  [ 7/11] avanzar v=+0.25 t=2.00 s  (avanzar 0.50 m)
+  [ 8/11] avanzar v=+0.25 t=2.00 s  (avanzar 0.50 m)
+  [ 9/11] girar   v=-1.00 t=1.57 s  (girar a la derecha 90°)
+  [10/11] avanzar v=+0.25 t=2.00 s  (avanzar 0.50 m)
+  [11/11] avanzar v=+0.25 t=2.00 s  (avanzar 0.50 m)
+Pose final del robot: x=+1.99 m, y=-1.99 m, rumbo=-90°
+Pose esperada si llegó a la celda [4, 4] (desde [0, 0]): x=+2.00 m, y=-2.00 m
+[OK] Desconectado.

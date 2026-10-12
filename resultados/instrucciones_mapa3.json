@@ -1,0 +1,102 @@
+{
+  "mapa": "Mapa 3 - Fracaso de la estrategia",
+  "estado": "BLOQUEADO",
+  "orientacion_inicial": "ESTE",
+  "tamano_celda_metros": 0.5,
+  "ruta": [
+    [
+      0,
+      0
+    ],
+    [
+      0,
+      1
+    ],
+    [
+      0,
+      2
+    ],
+    [
+      1,
+      2
+    ],
+    [
+      2,
+      2
+    ],
+    [
+      3,
+      2
+    ],
+    [
+      3,
+      1
+    ],
+    [
+      4,
+      1
+    ],
+    [
+      5,
+      1
+    ],
+    [
+      6,
+      1
+    ],
+    [
+      6,
+      2
+    ],
+    [
+      6,
+      3
+    ],
+    [
+      6,
+      4
+    ]
+  ],
+  "instrucciones": [
+    {
+      "tipo": "AVANZAR",
+      "metros": 1.0
+    },
+    {
+      "tipo": "GIRAR",
+      "sentido": "DERECHA",
+      "grados": 90
+    },
+    {
+      "tipo": "AVANZAR",
+      "metros": 1.5
+    },
+    {
+      "tipo": "GIRAR",
+      "sentido": "DERECHA",
+      "grados": 90
+    },
+    {
+      "tipo": "AVANZAR",
+      "metros": 0.5
+    },
+    {
+      "tipo": "GIRAR",
+      "sentido": "IZQUIERDA",
+      "grados": 90
+    },
+    {
+      "tipo": "AVANZAR",
+      "metros": 1.5
+    },
+    {
+      "tipo": "GIRAR",
+      "sentido": "IZQUIERDA",
+      "grados": 90
+    },
+    {
+      "tipo": "AVANZAR",
+      "metros": 1.5
+    }
+  ]
+}

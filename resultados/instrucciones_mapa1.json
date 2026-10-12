@@ -1,0 +1,77 @@
+{
+  "mapa": "Mapa 1 - Solución directa",
+  "estado": "DESTINO_ALCANZADO",
+  "orientacion_inicial": "ESTE",
+  "tamano_celda_metros": 0.5,
+  "ruta": [
+    [
+      0,
+      0
+    ],
+    [
+      0,
+      1
+    ],
+    [
+      0,
+      2
+    ],
+    [
+      1,
+      2
+    ],
+    [
+      2,
+      2
+    ],
+    [
+      2,
+      3
+    ],
+    [
+      2,
+      4
+    ],
+    [
+      3,
+      4
+    ],
+    [
+      4,
+      4
+    ]
+  ],
+  "instrucciones": [
+    {
+      "tipo": "AVANZAR",
+      "metros": 1.0
+    },
+    {
+      "tipo": "GIRAR",
+      "sentido": "DERECHA",
+      "grados": 90
+    },
+    {
+      "tipo": "AVANZAR",
+      "metros": 1.0
+    },
+    {
+      "tipo": "GIRAR",
+      "sentido": "IZQUIERDA",
+      "grados": 90
+    },
+    {
+      "tipo": "AVANZAR",
+      "metros": 1.0
+    },
+    {
+      "tipo": "GIRAR",
+      "sentido": "DERECHA",
+      "grados": 90
+    },
+    {
+      "tipo": "AVANZAR",
+      "metros": 1.0
+    }
+  ]
+}

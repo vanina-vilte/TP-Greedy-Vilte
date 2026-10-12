@@ -1,0 +1,35 @@
+Mapa: Mapa 2 - Solución no óptima | estado del planificador: DESTINO_ALCANZADO
+28 órdenes, duración estimada 52.6 s
+[OK] Conectado a Unitree G1 (humanoide).
+     Limites: 0.25 m/s, 1.0 rad/s, 10.0 s por orden.
+  [ 1/28] avanzar v=+0.25 t=2.00 s  (avanzar 0.50 m)
+  [ 2/28] avanzar v=+0.25 t=2.00 s  (avanzar 0.50 m)
+  [ 3/28] avanzar v=+0.25 t=2.00 s  (avanzar 0.50 m)
+  [ 4/28] avanzar v=+0.25 t=2.00 s  (avanzar 0.50 m)
+  [ 5/28] avanzar v=+0.25 t=2.00 s  (avanzar 0.50 m)
+  [ 6/28] girar   v=-1.00 t=1.57 s  (girar a la derecha 90°)
+  [ 7/28] avanzar v=+0.25 t=2.00 s  (avanzar 0.50 m)
+  [ 8/28] girar   v=+1.00 t=1.57 s  (girar a la izquierda 90°)
+  [ 9/28] avanzar v=+0.25 t=2.00 s  (avanzar 0.50 m)
+  [10/28] girar   v=-1.00 t=1.57 s  (girar a la derecha 90°)
+  [11/28] avanzar v=+0.25 t=2.00 s  (avanzar 0.50 m)
+  [12/28] avanzar v=+0.25 t=2.00 s  (avanzar 0.50 m)
+  [13/28] avanzar v=+0.25 t=2.00 s  (avanzar 0.50 m)
+  [14/28] girar   v=-1.00 t=1.57 s  (girar a la derecha 90°)
+  [15/28] avanzar v=+0.25 t=2.00 s  (avanzar 0.50 m)
+  [16/28] girar   v=-1.00 t=1.57 s  (girar a la derecha 90°)
+  [17/28] avanzar v=+0.25 t=2.00 s  (avanzar 0.50 m)
+  [18/28] avanzar v=+0.25 t=2.00 s  (avanzar 0.50 m)
+  [19/28] girar   v=+1.00 t=1.57 s  (girar a la izquierda 90°)
+  [20/28] avanzar v=+0.25 t=2.00 s  (avanzar 0.50 m)
+  [21/28] girar   v=+1.00 t=1.57 s  (girar a la izquierda 90°)
+  [22/28] avanzar v=+0.25 t=2.00 s  (avanzar 0.50 m)
+  [23/28] avanzar v=+0.25 t=2.00 s  (avanzar 0.50 m)
+  [24/28] avanzar v=+0.25 t=2.00 s  (avanzar 0.50 m)
+  [25/28] avanzar v=+0.25 t=2.00 s  (avanzar 0.50 m)
+  [26/28] girar   v=+1.00 t=1.57 s  (girar a la izquierda 90°)
+  [27/28] avanzar v=+0.25 t=2.00 s  (avanzar 0.50 m)
+  [28/28] avanzar v=+0.25 t=2.00 s  (avanzar 0.50 m)
+Pose final del robot: x=+3.00 m, y=-3.01 m, rumbo=-0°
+Pose esperada si llegó a la celda [6, 6] (desde [0, 0]): x=+3.00 m, y=-3.00 m
+[OK] Desconectado.

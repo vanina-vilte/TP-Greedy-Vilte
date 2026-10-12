@@ -1,0 +1,42 @@
+==============================================================================
+Mapa 1 - Solución directa  (mapa1.json)
+==============================================================================
+Grilla 5x5 | celda 0,50 m | orientación inicial ESTE
+Desempate: ARRIBA -> DERECHA -> ABAJO -> IZQUIERDA
+
+Inicio: [0, 0] | Destino: [4, 4] | Distancia inicial: 8 | Máximo de pasos: 30
+
+Paso  1 | en [0, 0] | candidatos: [DERECHA->[0, 1] d=7] | elijo DERECHA -> [0, 1] (d=7)
+Paso  2 | en [0, 1] | candidatos: [DERECHA->[0, 2] d=6] | elijo DERECHA -> [0, 2] (d=6)
+Paso  3 | en [0, 2] | candidatos: [ABAJO->[1, 2] d=5] | elijo ABAJO -> [1, 2] (d=5)
+Paso  4 | en [1, 2] | candidatos: [ABAJO->[2, 2] d=4] | elijo ABAJO -> [2, 2] (d=4)
+Paso  5 | en [2, 2] | candidatos: [DERECHA->[2, 3] d=3, IZQUIERDA->[2, 1] d=5] | elijo DERECHA -> [2, 3] (d=3)
+Paso  6 | en [2, 3] | candidatos: [DERECHA->[2, 4] d=2] | elijo DERECHA -> [2, 4] (d=2)
+Paso  7 | en [2, 4] | candidatos: [ARRIBA->[1, 4] d=3, ABAJO->[3, 4] d=1] | elijo ABAJO -> [3, 4] (d=1)
+Paso  8 | en [3, 4] | candidatos: [ABAJO->[4, 4] d=0] | elijo ABAJO -> [4, 4] (d=0)
+
+RESULTADO: DESTINO_ALCANZADO
+Causa: El robot llegó a la celda destino.
+Movimientos realizados: 8
+Posición final: [4, 4] | distancia Manhattan al destino: 0
+
+Ruta recorrida:
+  (0,0) -> (0,1) -> (0,2) -> (1,2) -> (2,2) -> (2,3) -> (2,4) -> (3,4) -> (4,4)
+
+Representación de la ruta (I inicio, D destino, # obstáculo, X prohibida, * donde quedó):
+    0 1 2 3 4
+ 0  I → ↓ # .
+ 1  # # ↓ # .
+ 2  . . → → ↓
+ 3  . X # # ↓
+ 4  . . . . D
+
+Referencia (BFS): existe una ruta de 8 movimientos: (0,0) -> (0,1) -> (0,2) -> (1,2) -> (2,2) -> (2,3) -> (2,4) -> (3,4) -> (4,4)
+Greedy coincidió con la longitud mínima.
+
+Instrucciones para el robot (paso a paso, 11 instrucciones):
+  AVANZAR 0,50 m -> AVANZAR 0,50 m -> GIRAR DERECHA 90° -> AVANZAR 0,50 m -> AVANZAR 0,50 m -> GIRAR IZQUIERDA 90° -> AVANZAR 0,50 m -> AVANZAR 0,50 m -> GIRAR DERECHA 90° -> AVANZAR 0,50 m -> AVANZAR 0,50 m
+
+Instrucciones agrupadas (avances consecutivos sumados, 7 instrucciones):
+  AVANZAR 1,00 m -> GIRAR DERECHA 90° -> AVANZAR 1,00 m -> GIRAR IZQUIERDA 90° -> AVANZAR 1,00 m -> GIRAR DERECHA 90° -> AVANZAR 1,00 m
+
